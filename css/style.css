@@ -1,36 +1,33 @@
 * {
-    margin: 0;
     padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
 }
 
-body {
-    display: flex;
-    flex-direction: column;
-    height: 100vh;
-    width: 100vw;
-    
+a {
+    text-decoration: none;
+    color: rgb(53, 53, 53);
+    text-transform: capitalize;
+    font-size: 75%;
+}
+
+a:hover {
+    color: rgb(102, 102, 102);
 }
 
 header {
-    background-color: gray;
+    border-bottom: 1px solid black;
+    padding: 2px 20px;
+
 }
 
-aside {
-    background-color: rgb(175, 175, 175);
-    width: 25%;
-}
-
-section {
-    background-color: rgb(145, 145, 145);
-    width: 75%;
-}
-
-main {
+ul {
+    list-style-type: none;
     display: flex;
-    flex-direction: row;
-    flex-grow: 1;
+    justify-content: space-between;
 }
 
-footer {
-    background-color: gray;
+li {
+    
 }
